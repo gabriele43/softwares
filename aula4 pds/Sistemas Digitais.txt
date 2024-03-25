@@ -62,3 +62,36 @@ false
  gato
 gato
  gato
+
+var  idade = 15;
+var status = idade >= 18? 'adulto':'menor de idade';
+print(status);
+menor de idade
+
+var palavra1 = 'alfa';
+var palavra2 = ' beto';
+var resultado = palavra1+palavra2;
+print(resultado)
+
+alfa beto
+
+var a = 18
+var b = 15
+
+if((a>10 && b<20 ) || (b==5)){
+    print('true')
+}else{
+    print('false')
+}
+
+if((a>10) || (b == 5)){
+    print('true')
+}else{
+    print('false')
+}
+ if(a>10 && a < 20){
+     print('true')
+ }else{
+     print('false')
+ }
+ 
