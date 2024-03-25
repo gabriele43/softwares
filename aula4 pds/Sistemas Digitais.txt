@@ -1,0 +1,64 @@
+var numero1 = 5
+var numero2 = 2
+var resultado;
+
+resultado = numero1 == numero2;
+print(numero1, '=', numero2, '?',resultado);
+resultado = numero1 =  numero2;
+print(numero1, '!=', numero2, '?', resultado);
+resultado = numero1 > numero2;
+print(numero1, '>', numero2, '?', resultado);
+resultado = numero1 < numero2;
+print(numero1, '<', numero2, '?', resultado);
+
+5 = 2 ? false
+2 != 2 ? 2
+2 > 2 ? false
+2 < 2 ? false
+
+var a1 = true && true;
+print(a1);
+var a2 = true && false;
+print(a2);
+var a3 = false && true;
+print(a3);
+var a4 = false && 3 == 4;
+print(a4);
+var a5 = ' gato' && 'cao';
+print(a5);
+var a6 = false && 'gato';
+print (a6);
+var a7 = ' gato ' && false;
+print (a7);
+
+true
+false
+false
+false
+cao
+false
+false
+
+
+var a1 = true || true;
+print(a1);
+var a2 = true || false;
+print(a2);
+var a3 = false || true;
+print(a3);
+var a4 = false || 3 == 4;
+print(a4);
+var a5 = ' gato' || 'cao';
+print(a5);
+var a6 = false || 'gato';
+print (a6);
+var a7 = ' gato ' || false;
+print (a7);
+
+true
+true
+true
+false
+ gato
+gato
+ gato
